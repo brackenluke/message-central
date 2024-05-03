@@ -17,10 +17,6 @@
     "url": "https://github.com/brackenluke/message-central/issues"
   },
   "homepage": "https://github.com/brackenluke/message-central#readme",
-  "keywords": [],
-  "dependencies": {
-    "express": "^4.19.2",
-    "express-handlebars": "^7.1.2"
   "dependencies": {
     "bcrypt": "^5.1.1",
     "connect-session-sequelize": "^7.1.7",
