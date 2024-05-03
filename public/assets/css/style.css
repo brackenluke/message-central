@@ -11,8 +11,9 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #000000;
 }
 
 .header h1 {
@@ -59,7 +60,7 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     background-color: #2a607c;
 }
 
