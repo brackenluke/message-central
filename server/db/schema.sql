@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS ChatApp_db;
+
+CREATE DATABASE ChatApp_db;
