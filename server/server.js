@@ -36,8 +36,13 @@ app.get('/profile', (req, res) => {
     res.render('profile', { layout: false }); // Specify no layout for this view
 });
 
+// Route to display static src images
+app.get("/static", (req, res) => {
+    res.render("static");
+});
 
 // Start the server
 app.listen(8080, () => {
     console.log('Server is starting at port 8080');
 });
+

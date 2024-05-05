@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Message Central</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-    <p>wow there is test text in here</p>
+    <div class="header mb-8">
+        <header>
+            <h1>Message Central</h1>
+        </header>
+    </div>
+    <div class="container mx-auto mt-5 px-6 w-fit flex">
+        <div class="container mx-auto mt-5 px-6 border-2 w-fit flex bg-lime-600">
+            <a href="/views/profile.handlebars">
+                <button>Profile</button>
+            </a>
+        </div>
+        <div class="container mx-auto mt-5 px-6 border-2 w-fit flex bg-lime-600">
+            <a href="/views/messaging.handlebars">
+                <button>Lobby</button>
+            </a>
+        </div>
+        <div class="container mx-auto mt-5 px-6 border-2 w-fit flex bg-lime-600">
+            <a href="/views/convo.handlebars">
+                <button>Your Messages</button>
+            </a>
+        </div>
+        <div class="container mx-auto mt-5 px-6 border-2 w-fit flex bg-lime-600">
+            <a href="/views/index.handlebars">
+                <button>Logout</button>
+            </a>
+        </div>
+    </div> 
+
+    <img src="../public/assets/images/walkie-talkie.webp" alt="Logo Image of walkie talkie cartoon style.">
+    
+    <div class="footer p-2 mt-5">
+        <footer>
+            <h3>Thanks for coming!</h3>
+        </footer>
+    </div>
 </body>
+<script src="./assets/js/script.js"></script>
 </html>
