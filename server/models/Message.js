@@ -4,20 +4,24 @@ const Sequelize = require('../Config/Connection');
 class Message extends Model{}
 //initiate model
 Message.init({
-    conversation_id:{
-        type: DataTypes.STRING,
-    },
-    sender:{
-        type:DataTypes.STRING,
-    },
     text:{
-        type: DataTypes.STRING,
+        type:DataTypes.TEXT,
+        allowNull:false,
+    },
+    sender_id:{
+        type: DataTypes.INTEGER,
+        allowNull:false,
+    },
+    receiver_id:{
+        type: DataTypes.INTEGER,
+        allowNull: false,
     }
 },
 {
     sequelize,
-    timestamps: true,
-    freezeTableName: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName:'Message',
 });
 
 module.exports = Message;

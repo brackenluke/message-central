@@ -4,14 +4,14 @@ const Sequelize = require('../Config/Connection');
 class Conversation extends Model{};
 
 Conversation.init({
-    members:{  //collects users in array
+    names:{
         type:DataTypes.ARRAY,
         allowNull:false,
     }
 },
 {
     sequelize,
-    timestamps: true,
+    timestamps:true,
 })
 
 module.exports = Conversation;
