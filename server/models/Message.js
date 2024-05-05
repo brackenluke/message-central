@@ -15,6 +15,10 @@ Message.init({
     receiver_id:{
         type: DataTypes.INTEGER,
         allowNull: false,
+    },
+    Conversation_id:{
+        type: DataTypes.INTEGER,
+        allowNull: false,
     }
 },
 {
