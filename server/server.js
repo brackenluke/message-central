@@ -41,7 +41,7 @@ app.get('/profile', (req, res) => {
 
 // Route to display static src images
 app.get("/static", (req, res) => {
-    res.render("static");
+    res.render("/static");
 });
 
 // Start the server

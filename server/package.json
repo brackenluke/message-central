@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  },
+  "scripts": {
+    "seedConversations": "node seeds/conversationData.js",
+    "seedPosts": "node seeds/postData.js",
+    "seedMessages": "node seeds/messageData.js",
+    "seedUsers": "node seeds/userData.js"
+  }
+  
+}
