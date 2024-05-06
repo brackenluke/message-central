@@ -13,7 +13,7 @@ const userData = async ()=>{
             },
             {
                 username: 'Luke Bracken',
-                email:'',
+                email:'bracken_luke@yahoo.com',
                 password:'tUmxi2dIvK2M9J4Ool',
                 profile_picture:''
             },
