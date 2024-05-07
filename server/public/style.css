@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #051a47;
+    background-color: #062f88;
     color: #fff;
 }
 
@@ -48,7 +48,7 @@ button {
     list-style-type: none;
     width: 100%;
     max-width: 600px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 1rem auto;
     padding: 0;
     display: flex;
@@ -58,7 +58,7 @@ button {
     flex-grow: 1;
     background-image: url(./image/walkie-talkie.webp);
     background-size: cover;
-    background-position: right center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
