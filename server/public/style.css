@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #051a47;
     color: #fff;
 }
 
@@ -56,6 +56,10 @@ button {
     justify-content: left;
     overflow: auto;
     flex-grow: 1;
+    background-image: url(./image/walkie-talkie.webp);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 
 .post {
@@ -87,11 +91,11 @@ button {
 }
 
 .post__header--user {
-    background-color: blue;
+    background-color: rgb(0, 132, 255);
 }
 
 .post__header--reply {
-    background-color: purple;
+    background-color: rgb(7, 224, 0);
 }
 
 .post__header--name {
@@ -121,3 +125,4 @@ button {
 .activity {
     font-style: italic;
 }
+
