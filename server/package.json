@@ -1,12 +1,21 @@
 {
-  "devDependencies": {
-    "sequelize-cli": "^6.6.2"
-  },
+  "name": "walkie-talkie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "seedConversations": "node seeds/conversationData.js",
-    "seedPosts": "node seeds/postData.js",
-    "seedMessages": "node seeds/messageData.js",
-    "seedUsers": "node seeds/userData.js"
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
-  
 }
