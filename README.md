@@ -34,9 +34,9 @@ Ethan Landeros: JavaScript and HTML
 
 Luke Bracken: CSS and HTML
 
-# Heroku Deployment
+# Render Deployment
 
-Here is the link to the website:(https://walkie-talkie-0800c5e7644d.herokuapp.com/)
+Here is the link to the website:(https://message-central.onrender.com/)
 
 # Github Repository
 
